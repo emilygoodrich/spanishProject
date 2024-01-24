@@ -1,0 +1,52 @@
+body {
+  background-color:aliceblue;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#navbar {
+  background-color: palevioletred;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#navbar div {
+  background-color: none;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+a:hover {
+  font-size: 32px;
+}
+#toggleImg {
+  height: 40px;
+  width: 70px;
+}
+#wholeWordsSection {
+  background-color: lightcoral;
+  height: 79vh;
+  display: flex;
+  flex-direction:column;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 25px;
+  width: 800px;
+}
+.wordLine {
+  height: 39px;
+  display: flex;
+  background-color: none;
+  justify-content: space-around;
+  font-size: 17px;
+}
+.wordLine p {
+  width: 30%;
+}
