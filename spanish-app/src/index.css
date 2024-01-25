@@ -1,5 +1,5 @@
 body {
-  background-color:aliceblue;
+  background-color: rgb(255, 225, 225);
   margin: 0;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -49,4 +49,39 @@ a:hover {
 }
 .wordLine p {
   width: 30%;
+}
+.icon {
+  margin-top: 100px;
+  height: 150px;
+  width: 150px;
+}
+.homeSection {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: bold;
+}
+#titleTitle {
+  font-size: 50px;
+}
+.artistas {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  overflow:hidden;
+  border: solid pink 5px;
+  border-radius: 10px;
+}
+.artistLineUp {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+  justify-content: space-around;
+  font-weight: bold;
 }

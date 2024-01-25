@@ -2,12 +2,26 @@
     [
         {
             "lan": "eng",
-            "home1": "mwah",
-            "words1": "My Favorite Words"
+            "home1": "Hello, this is my Winterim project!",
+            "words1": "My Favorite Words",
+            "home2": "(I'll cry if you try to talk to me in Spanish.)",
+            "home3": "My goal for Winterim was to learn more Spanish, although I did study a little bit of French as well.",
+            "home4": ["I read", "I listened", "I wrote"],
+            "t1": "Home",
+            "t2": "Music",
+            "t3": "Words",
+            "musict": "My Favorite Musicians"
         },
         {
             "lan": "es",
-            "home1": "mwah but spanish",
-            "words1": "Mis Palabras Favoritas"
+            "home1": "Hola, ¡este es mi proyecto de Winterim!",
+            "words1": "Mis Palabras Favoritas",
+            "home2": "(Voy a llorar si usted intente a hablarme en español.)",
+            "home3":"Mi meta para Winterim era aprender más español, aunque estudié un poco de francés también.",
+            "home4": ["Yo leía", "Yo escuchaba", "Yo escribía"],
+            "t1": "Inicio",
+            "t2": "Música",
+            "t3": "Palabras",
+            "musict": "Mis Músicos Favoritos"
         }
     ]

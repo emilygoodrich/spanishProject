@@ -1,13 +1,27 @@
 import React from 'react'
 import mon_laferte from '../components/mon_laferte.jpeg'
 import selena from '../components/selena.jpg'
-const Music = () => {
+import kevin from '../pics/kevin_kaarl.jpg'
+import words from '../components/all-words.json'
+const Music = ({lan}) => {
+    const curLan = words.find((word) => word.lan === lan)
+    const title = curLan.musict
+    
     return (
         <>
-            <img src={mon_laferte} alt="mon laferte" />
-            <img src={selena} alt="selena" />
-            <div>more words about the artists</div>
-            <div>and some others that i didn't like a lot</div>
+        <h1>{title}</h1>
+        <div>
+            <div class="artistLineUp">
+                <img src={mon_laferte} alt="mon laferte" class="artistas"/>
+                <img src={selena} alt="selena" class="artistas"/>
+                <img src={kevin} alt="kevin kaarl" class="artistas"/>
+            </div>
+            <div class="artistLineUp">
+                <div>Mon Laferte</div>
+                <div>Selena</div>
+                <div>Kevin Kaarl</div>
+            </div>
+        </div>
         </>
     )
 }
