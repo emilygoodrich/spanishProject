@@ -5,6 +5,7 @@ import Music from './pages/music'
 import Home from './pages/index'
 import Words from './pages/words'
 import Navbar from './components/navbar.js'
+import Phrases from './pages/phrases.js'
 function App() {
 const [lan, setLan] = useState('eng')
   // useEffect(() => {
@@ -26,6 +27,7 @@ const [lan, setLan] = useState('eng')
           <Route exact path='/' element={<Home lan={lan}/>}/>
           <Route path='/music' element={<Music lan={lan}/>}/>
           <Route path='/words' element={<Words lan={lan}/>}/>
+          <Route path='/phrases' element={<Phrases lan={lan}/>}/>
         </Routes>
       </Router>
     </div>

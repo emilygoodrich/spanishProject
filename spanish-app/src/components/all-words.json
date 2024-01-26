@@ -10,7 +10,9 @@
             "t1": "Home",
             "t2": "Music",
             "t3": "Words",
-            "musict": "My Favorite Musicians"
+            "t4": "Phrases",
+            "musict": "My Favorite Musicians",
+            "p": ["Thank you", "You're welcome", "Where is it?", "Hello"]
         },
         {
             "lan": "es",
@@ -22,6 +24,8 @@
             "t1": "Inicio",
             "t2": "Música",
             "t3": "Palabras",
-            "musict": "Mis Músicos Favoritos"
+            "t4": "Frases",
+            "musict": "Mis Músicos Favoritos",
+            "p": ["Gracias", "De nada", "¿Dondé está?", "Hola"]
         }
     ]

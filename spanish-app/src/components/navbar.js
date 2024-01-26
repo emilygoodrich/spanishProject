@@ -8,12 +8,14 @@ const Navbar = ({ lan, setLan }) => {
     const home = curLan.t1
     const music = curLan.t2
     const wordsPage = curLan.t3
+    const phrases = curLan.t4
     return (
         <div id="navbar">
         <div>
             <Link to='/'>{home}</Link>
             <Link to='/music'>{music}</Link>
             <Link to='/words'>{wordsPage}</Link>
+            <Link to='/phrases'>{phrases}</Link>
         </div>
             <LanguageToggle lan={lan} setLan={setLan} /> 
         </div>

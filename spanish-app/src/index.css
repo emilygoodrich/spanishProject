@@ -13,7 +13,7 @@ body {
 }
 #navbar div {
   background-color: none;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
@@ -46,6 +46,7 @@ a:hover {
   background-color: none;
   justify-content: space-around;
   font-size: 17px;
+  font-weight: bold;
 }
 .wordLine p {
   width: 30%;
@@ -84,4 +85,7 @@ a:hover {
   margin-top: 5px;
   justify-content: space-around;
   font-weight: bold;
+}
+.ph {
+  font-size: 60px;
 }
