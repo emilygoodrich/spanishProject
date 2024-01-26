@@ -1,6 +1,6 @@
 import React from 'react'
-import mon_laferte from '../components/mon_laferte.jpeg'
-import selena from '../components/selena.jpg'
+import mon_laferte from '../pics/mon_laferte.jpeg'
+import selena from '../pics/selena.jpg'
 import kevin from '../pics/kevin_kaarl.jpg'
 import words from '../components/all-words.json'
 const Music = ({lan}) => {

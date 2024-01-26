@@ -2,7 +2,7 @@
     [
         {
             "lan": "eng",
-            "home1": "Hello, this is my Winterim project!",
+            "home1": "Hello, this is my Spanish project!",
             "words1": "My Favorite Words",
             "home2": "(I'll cry if you try to talk to me in Spanish.)",
             "home3": "My goal for Winterim was to learn more Spanish, although I did study a little bit of French as well.",
@@ -16,7 +16,7 @@
         },
         {
             "lan": "es",
-            "home1": "Hola, ¡este es mi proyecto de Winterim!",
+            "home1": "Hola, ¡este es mi proyecto de español!",
             "words1": "Mis Palabras Favoritas",
             "home2": "(Voy a llorar si usted intente a hablarme en español.)",
             "home3":"Mi meta para Winterim era aprender más español, aunque estudié un poco de francés también.",

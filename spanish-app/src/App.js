@@ -7,16 +7,11 @@ import Words from './pages/words'
 import Navbar from './components/navbar.js'
 import Phrases from './pages/phrases.js'
 function App() {
-const [lan, setLan] = useState('eng')
-  // useEffect(() => {
-  //     console.log('change')
-  //     const lan = JSON.parse(localStorage.getItem('lan'));
-  //     if (lan) {
-  //         setLan(lan)
-  //         console.log(`${lan} local`)
-  //     }
-  // }, [lan])
-  // use state here to track the language selected
+const [lan, setLan] = useState(() => {
+      const rawValue = localStorage.getItem('lan');
+      const initialValue = JSON.parse(rawValue);
+      return initialValue || 'eng';
+  })
   return (
     <div className="App">
       <Router>

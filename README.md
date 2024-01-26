@@ -1,3 +1,7 @@
 # spanishProject
 
-This is my React Spanish project that I created as a fun presentation. I was mostly focused on translating the whole thing between Spanish and English, which I did. It's a little messy right now, but I'll clean it up later.
+This is my React project that I created for school. It was meant to be a presentation, so it doesn't have many words on it. I needed something original to put on my GitHub, so I used this. I'm not much of a designer lol
+
+It has:
+- a Spanish/English toggle (the flag)
+- React Routing

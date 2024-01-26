@@ -3,11 +3,6 @@ import british from '../pics/british_flag.png'
 import spanish from '../pics/spanish_flag.png'
 
 const LanguageToggle = ({ lan, setLan }) => {
-// const [lan, setLan] = useState(() => {
-//       const rawValue = localStorage.getItem('lan');
-//       const initialValue = JSON.parse(rawValue);
-//       return initialValue || 'eng';
-//   })
 const [img, setImg] = useState(() => {
       const rawValue = localStorage.getItem('img');
       const initialValue = JSON.parse(rawValue);
